@@ -17223,7 +17223,18 @@ return {
               },
               variants = {
                 {
-                  arguments = {},
+                  arguments = {
+                    {
+                      name = "u",
+                      type = "Vec2",
+                      description = "The vector to lerp towards."
+                    },
+                    {
+                      name = "t",
+                      type = "number",
+                      description = "The lerping parameter."
+                    }
+                  },
                   returns = {
                     {
                       name = "v",
